@@ -1,0 +1,841 @@
+body {
+    font-family: 'Pacifico', cursive;
+}
+
+header {
+    height: 80px;
+}
+
+#cabecalho{
+    background-color: #00A896;
+}
+
+.navbar-brand,
+.nav-item a {
+    color: #F0F3BD;
+}
+
+.navbar a {
+    background-color: #00A896;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #005850;
+    color: #F0F3BD;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover {
+    color: #F0F3BD;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    background-color: #F0F3BD;
+}
+
+#cabecalho img {
+    width: 65px;
+    height: 65px;
+}
+/* Fim do cabecalho */
+
+/* Inicio secao novidades */
+#novidades {
+    background-color: #9be0d9;
+}
+
+#novidades a {
+    padding-left: 40px
+}
+
+#novidades img {
+    width: 536px;
+    height: 490px;
+    padding-bottom: 10px;
+}
+/* Fim secao novidades */
+
+/* Inicio secao Sobre */
+#sobre {
+    background: #F0F3BD;
+    padding-top: 80px;
+}
+
+#sobre img {
+    width: 536px;
+    height: 490px;
+    padding-bottom: 10px;
+}
+
+.text-titulo {
+    color: #00A896;
+    margin-left: 90px;
+}
+
+.text {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-left: 90px;
+}
+/* Fim secao Sobre */
+
+/* Inicio secao Mirim */
+#mirim {
+    background-color: #9be0d9;
+}
+
+#mirim img {
+    width: 384px;
+    height: 221px;
+}
+
+.nav-mirim .nav-link.active {
+    background-color: #00A896;
+    color: #F0F3BD;
+}
+
+.nav-link {
+    color: #F0F3BD;
+}
+
+.nav-mirim .nav-link:hover {
+    color: #F0F3BD;
+}
+
+
+#mirim p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+/* Final secao Mirim */
+
+/* Inicio secao acorina/mais sobre o bairro */
+#acoriana {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F0F3BD;
+    padding-top: 80px;
+}
+
+.container-materias {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    height: 100%;
+    width: 100%;
+    max-width: 1020px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1rem;
+    height: 400px;
+}
+
+.card-materia {
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #00A896;
+}
+
+.card-materia::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    z-index: -1;
+    background-color: #9be0d9;
+}
+
+.image-materia {
+    max-width: 240px;
+    max-height: 250px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.card-materia span {
+    color: #F0F3BD;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+.image-materia a img {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .3s ease-out;
+    cursor: pointer;
+}
+
+.image-materia img:hover {
+    transform: scale(1.1);
+}
+
+.card-materia p {
+    font-weight: bold;
+    font-size: .8rem;
+    margin: 0rem .75rem;
+}
+
+.cta-materia {
+    width: 100px;
+    margin: auto auto 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-materia a {
+    padding: 5px 10px;
+    font-size: .8rem;
+    /* border-radius: 10px; */
+    text-decoration: none;
+    transition: opacity .3s ease;
+    color: #F0F3BD;
+}
+
+.cta-materia a:hover {
+    opacity: .7;
+}
+
+#visita {
+    background-color: #9be0d9;
+    padding-top: 80px;
+
+}
+
+#visita h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.redes {
+    margin-top: 120px;
+}
+
+.redes p {
+    margin-left: 40px;
+}
+
+.bi, a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #00A896;
+}
+
+.tel {
+    padding-left: 50px;
+}
+
+.bi-whatsapp {
+    margin-left: 70px;
+}
+
+.bi-instagram {
+    padding: 50px;
+}
+
+.email-info a {
+    text-decoration: none;
+    color: #00A896;
+}
+
+.email-info {
+    margin-top: 40px;
+    padding-left: 90px;
+}
+
+.contato {
+    margin-top: 100px;
+}
+
+#rodape {
+    background-color: #00A896;
+    height: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#rodape h3 {
+    font-size: 1rem;
+    padding-top: 30px;
+}
+
+#rodape h4, a {
+    color: #212529;
+    font-size: 1rem;
+    padding-top: 30px;
+}
+
+main {
+    background-color: #F0F3BD;
+}
+
+.texto_materia {
+    padding: 10px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+h5 {
+    text-align: end;
+    padding-top: 20px;
+}
+
+.text-materia {
+    text-align: center;
+    color: #00A896;
+    font-size: 30px;
+}
+
+main h3 {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+main h1 {
+    padding-top: 15px;
+}
+
+.carousel-item img {
+    width: 324px;
+    height: 562px;
+}
+
+#educacao, #bairro h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 820px) {
+    #cabecalho img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #novidades img {
+        width: 336px;
+        height: 290px;
+        padding-bottom: 10px;
+        
+    }
+
+    #sobre {
+        padding-top: 0;
+    }
+
+    #sobre img {
+        width: 336px;
+        height: 290px;
+        margin-top: 80px;
+    }
+
+    #sobre h2 {
+        margin-left: 0;
+    }
+
+    #sobre p {
+        margin-left: 40px;
+        font-size: .8rem;
+    }
+
+    #mirim h2 {
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    #acoriana {
+        height: 450px;
+        margin-bottom: 0px;
+    }
+
+    #acoriana h2 {
+        margin-top: -60px;
+        margin-bottom: 50px;
+    }
+
+    .image-materia {
+        max-width: 120px;
+        max-height: 130px;
+    }
+
+    .card-materia p {
+        font-size: .5rem;
+    }
+
+    .card-materia {
+        height: 80%;
+        width: 80%;
+        padding: 8px 6px 6px;
+    }
+    
+    .swiper {
+        width: 650px;
+        height: 285px;
+    }
+
+    .container-materias {
+        height: 65%;
+    }
+
+    .swiper-wrapper {
+        padding: 0px;
+        height: 100%;
+    }
+
+    #visita h1 {
+        margin-left: 0;
+    }
+
+    #visita h2 {
+        margin-left: 40px;
+    }
+
+    #visita p {
+        margin-left: 0px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 250px;
+        padding-right: 10px;
+    }
+
+    .redes {
+        margin-top: 50px;
+    }
+
+    .bi-whatsapp {
+        margin-left: 20px;
+    }
+
+    #rodape {
+        height: 50px;
+    }
+
+    #rodape h3 {
+        font-size: .8rem;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    #rodape h4, a {
+        color: #212529;
+        font-size: .8rem;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 600px) {
+    #novidades img {
+        width: 436px;
+        height: 390px;
+        padding-bottom: 10px;
+        margin-left: 25px;
+    }
+
+    #novidades h2 {
+        margin-left: 0;
+    }
+
+    #novidades p {
+        margin-left: 0;
+    }
+
+    #novidades a {
+        margin-left: 60px;
+    }
+    
+    #sobre img {
+        width: 436px;
+        height: 390px;
+        padding-bottom: 10px;
+        margin-left: 25px;
+    }
+
+    #sobre p {
+        margin-left: 0;
+    }
+
+    #visita h2 {
+        margin-left: 190px;
+    }
+
+    .redes p {
+        text-align: center;
+    }
+
+    .bi-whatsapp {
+        margin-left: 120px;
+    }
+
+    .email-info {
+        padding-bottom: 20px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 350px;
+        padding-left: 20px;
+    }
+
+    #rodape {
+        height: 60px;
+    }
+
+    footer h4 {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    #novidades img {
+        margin-left: 25px;
+    }
+
+    #sobre img {
+        margin-left: 25px;
+    }
+
+    .bi-whatsapp {
+        margin-left: 55px;
+    }
+
+    iframe {
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 420px) {
+    #cabecalho img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #novidades img {
+        width: 336px;
+        height: 290px;
+        padding-bottom: 10px;
+    }
+
+    #novidades p {
+        margin-left: 0;
+    }
+
+    #novidades a {
+        padding-left: 50px;
+    }
+
+    #novidades h2 {
+        margin-left: 0;
+    } 
+
+    #sobre {
+        padding-top: 0;
+    }
+
+    #sobre img {
+        width: 336px;
+        height: 290px;
+    }
+
+    #sobre p {
+        margin-left: 0;
+        font-size: .8rem;
+    }
+
+    #mirim h2 {
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    #acoriana {
+        height: 270px;
+        margin-bottom: 0px;
+        
+    }
+
+    #acoriana h2 {
+        margin-top: -60px;
+        margin-left: -60px;
+    }
+
+    .image-materia {
+        max-width: 60px;
+        max-height: 70px;
+    }
+
+    .card-materia p {
+        font-size: .4rem;
+    }
+
+    .card-materia a {
+        font-size: .5rem;
+    }
+
+    .card-materia span {
+        font-size: .6rem;
+    }
+
+    .card-materia {
+        height: 100%;
+        width: 100%;
+        padding: 8px 6px 6px;
+        /* margin-top: 1px; */
+    }
+    
+    .swiper {
+        height: 195px;
+    }
+
+    .container-materias {
+        height: 95%;
+        padding: 8px;
+        margin-top: -45px;
+    }
+
+    .swiper-wrapper {
+        margin-left: 0;
+    }
+
+    #visita {
+        padding-top: 10px;
+    }
+
+    #visita h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .redes {
+        margin-top: 50px;
+    }
+
+    .bi-whatsapp {
+        margin-left: 25px;
+    }
+
+    .email-info {
+        padding-bottom: 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #rodape {
+        height: 50px;
+    }
+
+    #rodape h3 {
+        font-size: .8rem;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    #rodape h4, a {
+        color: #212529;
+        font-size: .8rem;
+        padding-top: 10px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 250px;
+        margin-left: 0;
+    }
+
+    .carousel-item img {
+        width: 336px;
+        height: 296px;
+    }
+    
+    #festaDoDivino h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #educacao h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #bairro h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #fotos img {
+        width: 336px;
+        height: 296px;
+    }
+}
+
+@media screen and (min-width: 239px) and (max-width: 320px) {
+
+    #cabecalho img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #cabecalho h1 {
+        font-size: .8rem;
+    }
+
+    header {
+        padding: 0;
+        margin: 0;
+    }
+
+    #novidades img {
+        width: 236px;
+        height: 190px;
+    }
+
+    #novidades p {
+        margin-left: 0;
+    }
+
+    #novidades a {
+        padding-left: 0px;
+    }
+
+    #novidades h2 {
+        margin-left: 0;
+    }
+    #sobre img {
+        width: 236px;
+        height: 190px;
+    }
+    
+    #sobre p {
+        margin-left: 0;
+    }
+
+    #sobre h2 {
+        margin-left: 0;
+    }
+
+    .bi-whatsapp {
+        margin-left: 15px;
+    }
+
+    .tel {
+        padding: 8px;
+    }
+
+    .bi-instagram {
+        padding: 8px;
+    }
+
+    .email-info {
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+
+    iframe {
+        width: 230px;
+        height: 150px;
+        margin-left: 0;
+    }
+
+    #rodape {
+        height: 95px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer h3 {
+        font-size: .5rem;
+    }
+
+    #acoriana {
+        height: 270px;
+        margin-bottom: 0px;
+        
+    }
+
+    #acoriana h2 {
+        margin-top: -60px;
+        margin-left: -60px;
+    }
+
+    .image-materia {
+        max-width: 40px;
+        max-height: 50px;
+    }
+
+    .card-materia p {
+        font-size: .3rem;
+    }
+
+    .card-materia a {
+        font-size: .4rem;
+    }
+
+    .card-materia span {
+        font-size: .4rem;
+    }
+
+    .card-materia {
+        height: 100%;
+        width: 100%;
+        padding: 8px 6px 6px;
+        /* margin-top: 1px; */
+    }
+    
+    .swiper {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container-materias {
+        height: 100%;
+        padding: 8px;
+        margin-top: -45px;
+    }
+
+    .swiper-wrapper {
+        margin-left: 0;
+    }
+}
