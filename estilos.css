@@ -345,6 +345,157 @@ main h1 {
     text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+    #novidades img {
+        width: 506px;
+        height: 470px;
+        padding-bottom: 10px;
+    }
+
+    #sobre img {
+        width: 506px;
+        height: 470px;
+        margin-top: 40px;
+    }
+
+    #acoriana {
+        height: 500px;
+        margin-bottom: 0px;
+    }
+
+    .image-materia {
+        max-width: 140px;
+        max-height: 150px;
+    }
+
+    .card-materia {
+        height: 80%;
+        width: 80%;
+        padding: 8px 6px 6px;
+    }
+    
+    .swiper {
+        width: 650px;
+        height: 325px;
+    }
+
+    .container-materias {
+        height: 65%;
+    }
+
+    .swiper-wrapper {
+        padding: 0px;
+        height: 100%;
+    }
+
+    #acoriana h2 {
+        margin-top: -60px;
+        margin-bottom: 50px;
+    }
+
+    iframe {
+        width: 480px;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    #cabecalho img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #novidades img {
+        width: 336px;
+        height: 290px;
+        padding-bottom: 10px;
+    }
+
+    #novidades h2 {
+        margin-left: 10px;
+    }
+
+    #novidades p {
+        margin-left: 10px;
+    }
+
+    #sobre img {
+        width: 336px;
+        height: 290px;
+        margin-top: 150px;
+    }
+
+    #sobre h2 {
+        margin-left: 10px;
+    }
+
+    #sobre p {
+        margin-left: 10px;
+    }
+
+    #acoriana {
+        height: 500px;
+        margin-bottom: 0px;
+    }
+
+    .image-materia {
+        max-width: 140px;
+        max-height: 150px;
+    }
+
+    .card-materia {
+        height: 80%;
+        width: 80%;
+        padding: 8px 6px 6px;
+    }
+    
+    .swiper {
+        width: 650px;
+        height: 325px;
+    }
+
+    .container-materias {
+        height: 65%;
+    }
+
+    .swiper-wrapper {
+        padding: 0px;
+        height: 100%;
+    }
+
+    #acoriana h2 {
+        margin-top: -60px;
+        margin-bottom: 50px;
+    }
+
+    #visita h1 {
+        margin-left: 0;
+    }
+
+    iframe {
+        width: 400px;
+        height: 250px;
+        padding-right: 10px;
+    }
+
+
+    .bi-whatsapp {
+        margin-left: 20px;
+    }
+
+    .email-info {
+        padding-left: 0;
+    }
+
+    .redes {
+        margin-top: 50px;
+    }
+
+    #rodape h4 {
+        margin-left: 200px;
+    }
+}
 @media screen and (max-width: 820px) {
     #cabecalho img {
         width: 55px;
@@ -461,6 +612,13 @@ main h1 {
         color: #212529;
         font-size: .8rem;
         padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    iframe {
+        width: 350px;
+        height: 250px;
     }
 }
 
@@ -674,6 +832,7 @@ main h1 {
         color: #212529;
         font-size: .8rem;
         padding-top: 10px;
+        margin-left: 0;
     }
 
     iframe {
