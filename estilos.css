@@ -697,8 +697,23 @@ main h1 {
         margin-left: 55px;
     }
 
+    .email-info {
+        text-align: center;
+    }
+
     iframe {
-        margin-left: 20px;
+        width: 350px;
+        height: 250px;
+        margin-left: 0;
+    }
+
+    #rodape h4 {
+        margin-left: 0;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
     }
 }
 
@@ -819,7 +834,7 @@ main h1 {
     }
 
     #rodape {
-        height: 50px;
+        height: 60px;
     }
 
     #rodape h3 {
@@ -839,6 +854,11 @@ main h1 {
         width: 350px;
         height: 250px;
         margin-left: 0;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
     }
 
     .carousel-item img {
