@@ -1,0 +1,36 @@
+body, h1, h2, h3, h5 img, ul, li, footer, header, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, footer, header, menu, nav {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Pacifico', cursive;
+}
