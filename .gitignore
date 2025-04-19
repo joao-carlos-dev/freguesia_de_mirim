@@ -4,3 +4,4 @@ firebase.json
 public/
 node_modules
 src/img
+src/styles

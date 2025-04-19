@@ -1,18 +1,12 @@
 import gulp from 'gulp';
-import imagemin from 'gulp-imagemin';
+import imageminTask from './tasks/imagemin.js';
+import cssTask from './tasks/css.js'; // Importe a tarefa de CSS
 
-const sourcePath = 'src/img/**/*.{jpg,jpeg,png,jfjf}';
-const destinationPath = 'src/img_minificadas';
+// Exporte a tarefa de minificação de imagens
+export const imagemin = imageminTask;
 
-const imageminOptions = {
-  progressive: true,
-  svgoPlugins: [{ removeViewBox: false }],
-  interlaced: true,
-  optimizationLevel: 3 // Nível de otimização (0-7)
-};
+// Exporte a tarefa de minificação de CSS
+export const css = cssTask;
 
-export default () => (
-	gulp.src(sourcePath)
-		.pipe(imagemin())
-		.pipe(gulp.dest(destinationPath))
-);
+// Defina a tarefa padrão para executar ambas as tarefas (opcional)
+export default gulp.series(imagemin, css);
