@@ -1,0 +1,136 @@
+@media (max-width: 480px) {
+    #cabecalho img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #cabecalho h1 {
+        font-size: var(--font-sizepequeno);
+    }
+
+    header {
+        padding: 0;
+        margin: 0;
+    }
+
+    #noticias img {
+        width: 236px;
+        height: 190px;
+    }
+
+    #noticias p {
+        margin-left: 0;
+    }
+
+    #noticias a {
+        padding-left: 0px;
+    }
+
+    #noticias h2 {
+        margin-left: 0;
+    }
+    #sobre img {
+        width: 236px;
+        height: 190px;
+    }
+    
+    #sobre p {
+        margin-left: 0;
+    }
+
+    #sobre h2 {
+        margin-left: 0;
+    }
+
+    .bi-whatsapp {
+        margin-left: 15px;
+    }
+
+    .tel {
+        padding: 8px;
+    }
+
+    .bi-instagram {
+        padding: 8px;
+    }
+
+    .email-info {
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+
+    .local {
+        padding: 12px;
+    }
+
+    iframe {
+        width: 230px;
+        height: 150px;
+        margin-left: 18px;
+        padding-bottom: 12px;
+    }
+
+    #rodape {
+        height: 95px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer h3 {
+        font-size: .5rem;
+        margin: 0px;
+    }
+
+    #acoriana {
+        height: 270px;
+        margin-bottom: 0px;
+        
+    }
+
+    #acoriana h2 {
+        margin-top: -60px;
+        margin-left: -60px;
+    }
+
+    .image-materia {
+        max-width: 40px;
+        max-height: 50px;
+    }
+
+    .card-materia p {
+        font-size: .3rem;
+    }
+
+    .card-materia a {
+        font-size: .4rem;
+    }
+
+    .card-materia span {
+        font-size: .4rem;
+    }
+
+    .card-materia {
+        height: 100%;
+        width: 100%;
+        padding: 8px 6px 6px;
+        /* margin-top: 1px; */
+    }
+    
+    .swiper {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container-materias {
+        height: 100%;
+        padding: 8px;
+        margin-top: -45px;
+    }
+
+    .swiper-wrapper {
+        margin-left: 0;
+    }
+}
