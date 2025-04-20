@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import imageminTask from './tasks/imagemin.js';
-import cssTask from './tasks/css.js'; // Importe a tarefa de CSS
+import cssTask from './tasks/css.js';
 
 // Exporte a tarefa de minificação de imagens
 export const imagemin = imageminTask;
