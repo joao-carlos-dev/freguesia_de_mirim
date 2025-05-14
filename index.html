@@ -44,6 +44,11 @@
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item">
+                        <a href="#noticia" class="nav-link">
+                            Notícias
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#sobre" class="nav-link">
                             Sobre
                         </a>
@@ -70,101 +75,273 @@
 
 
     <div data-bs-spy="scroll" data-bs-target="cabecalho">
-        <section id="noticias">
 
-            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <a href="./paginas/18°ACOR.html" target="_blank">
-                            <img class="w-100" src="./src/img_minificadas/noticias_carrousel/festa-acor.jpg"
-                                alt="festa açoriana">
+        <section id="noticia">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center text-titulo text-noticia">
+                        Notícias
+                    </h2>
+                </div>
 
-                            <div class="carousel-caption d-md-block">
-                                <a href="./paginas/18°ACOR.html">
-                                    <h5 class="text-materia">18º AÇOR</h5>
-                                </a>
+                <div class="row">
+                    <aside class="col-md-16">
+                        <nav class="navbar nav-pills nav-mirim " id="nav-tab">
+                            <div class="container">
+                                <!-- Botão hamburger visível em telas pequenas -->
+                                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#asideMenu" aria-controls="asideMenu" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <!-- Conteúdo do aside colapsável -->
+                                <div class="collapse navbar-collapse d-md-block" id="asideMenu">
+                                    <nav class="nav nav-pills flex-column flex-md-row" id="nav-tab" role="tablist">
+                                        <button id="tab1-tab" type="button" data-bs-toggle="tab"
+                                            data-bs-target="#festa_acor" role="tab" aria-controls="festa_acor"
+                                            aria-selected="true" class="text-start nav-link active">Festa
+                                            Açoriana</button>
+                                        <button id="tab2-tab" type="button" data-bs-toggle="tab"
+                                            data-bs-target="#expo-aco" role="tab" aria-controls="expo-aco"
+                                            aria-selected="false" class="text-start nav-link">Exposição
+                                            Açoriana</button>
+                                        <button id="tab3-tab" type="button" data-bs-toggle="tab" data-bs-target="#museu"
+                                            class="text-start nav-link" role="tab" aria-controls="museu"
+                                            aria-selected="false">Museu
+                                            Sant’Ana</button>
+                                        <button id="tab4-tab" type="button" data-bs-toggle="tab" data-bs-target="#natal"
+                                            class="text-start nav-link" role="tab" aria-controls="natal"
+                                            aria-selected="false">Natal</button>
+                                        <button id="tab5-tab" type="button" data-bs-toggle="tab"
+                                            data-bs-target="#flocore" class="text-start nav-link" role="tab"
+                                            aria-controls="flocore" aria-selected="false">Flocore</button>
+                                        <button id="tab6-tab" type="button" data-bs-toggle="tab"
+                                            data-bs-target="#mostra-cultural" class="text-start nav-link" role="tab"
+                                            aria-controls="mostra-cultural" aria-selected="false">Mostra
+                                            Cultural</button>
+                                        <button id="tab7-tab" type="button" data-bs-toggle="tab"
+                                            data-bs-target="#semana-dos-museus" class="text-start nav-link" role="tab"
+                                            aria-controls="semana-dos-museus" aria-selected="false">Semana
+                                            Nacional de Museus</button>
+                                    </nav>
+                                </div>
                             </div>
-                        </a>
-                    </div>
-
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <a href="./paginas/exposicao_acorianas.html" target="_blank">
-                            <img class="w-100" src="./src/img_minificadas/noticias_carrousel/expo.01.jpeg"
-                                alt="festa açoriana">
-
-                            <div class="carousel-caption d-md-block">
-                                <a href="./paginas/exposicao_acorianas.html">
-                                    <h5 class="text-materia">Exposição Açoriana</h5>
-                                </a>
+                        </nav>
+                    </aside>
+                </div>
+                <div class="col-md-16">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane show active" id="festa_acor" role="tabpanel" aria-labelledby="tab1-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100"
+                                        src="./src/img_minificadas/noticias_carrousel/festa-acor.jpg"
+                                        alt="itens tipicos açorianos" />
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="texto_materia">
+                                        A Secretaria de Educação, Cultura e Esporte (SEDUCE), através da Diretoria
+                                        de Cultura participou, na última semana do 18º AÇOR. No evento, que
+                                        aconteceu na cidade de Sombrio,
+                                        durante três dias, foram realizadas danças folclóricas, exposições de
+                                        artesanato e gastronomia
+                                        típica. Participaram com stands municípios e entidades que fazem parte do
+                                        NEA
+                                        (núcleo de estudosaçorianos UFSC). Além da exposição organizada pela
+                                        Diretoria de Cultura, baseada na cultura
+                                        Açoriana, montaram stands a Assiart, na venda dos artesanatos confeccionados
+                                        pelas integrantes
+                                        da associação e a Sociedade Cultural Freguesia de Mirim que expôs o Culto ao
+                                        Divino Espírito
+                                        Santo.
+                                        <a href="https://imbituba.sc.gov.br/noticia-401576/" target="_blank">Fonte</a>
+                                    </p>
+                                </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <a href="./paginas/abertura_museu.html" target="_blank">
-                            <img class="w-100" src="./src/img_minificadas/noticias_carrousel/frente_museo.png"
-                                alt="festa açoriana">
-
-                            <div class="carousel-caption d-md-block">
-                                <a href="./paginas/abertura_museu.html">
-                                    <h5 class="text-materia">Museu Sant’Ana</h5>
-                                </a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <a href="./paginas/acoes_natalinas.html" target="_blank">
-                            <img class="w-100" src="./src/img_minificadas/noticias_carrousel/natal.01.jpeg"
-                                alt="festa açoriana">
-
-                            <div class="carousel-caption d-md-block">
-                                <a href="./paginas/acoes_natalinas.html">
-                                    <h5 class="text-materia">Natal</h5>
-                                </a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <a href="./paginas/dia_folclore.html" target="_blank">
-                            <img class="w-100" src="./src/img_minificadas/noticias_carrousel/folclore.01.jpg"
-                                alt="festa açoriana">
-
-                            <div class="carousel-caption d-md-block">
-                                <a href="./paginas/dia_folclore.html">
-                                    <h5 class="text-materia">Folclore</h5>
-                                </a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <a href="./paginas/mostra_cultural.html" target="_blank">
-                            <img class="w-100" src="./src/img_minificadas/noticias_carrousel/mostra_cultural.01.jpeg"
-                                alt="festa açoriana">
-
-                            <div class="carousel-caption d-md-block">
-                                <a href="./paginas/mostra_cultural.html">
-                                    <h5 class="text-materia">Mostra Cultural</h5>
-                                </a>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+
+                <div class="col-md-16">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="expo-aco" role="tabpanel" aria-labelledby="tab2-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100"
+                                        src="./src/img_minificadas/noticias_carrousel/expo.01.jpeg"
+                                        alt="trajes da corte da festa do divino espirito santo" />
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="texto_materia">
+                                        A exposição “Influências Açorianas” foi inaugurada em 14 de junho de 2021,
+                                        em Imbituba, comemorando os 63 anos de emancipação político-administrativa
+                                        da cidade. Aberta ao público até 16 de julho, das 13h às 19h, no Paço
+                                        Municipal, a mostra foi organizada pela Sociedade Cultural Freguesia
+                                        Sant’Ana de Mirim, com apoio da Superintendência de Cultura, respeitando
+                                        protocolos sanitários devido à pandemia. A exposição apresenta uma casa
+                                        tradicional açoriana com móveis, utensílios e roupas típicas, além da
+                                        representação da Corte Imperial, destacando a religiosidade popular trazida
+                                        pelos imigrantes açorianos desde 1715. Alessandra Santos, superintendente de
+                                        Cultura, ressaltou a importância de preservar e valorizar a cultura local
+                                        para manter vivas as memórias e tradições das gerações passadas.
+                                        <a href="https://imbituba.sc.gov.br/noticia-676249/" target="_blank">Fonte</a>
+                                        <br><br>
+                                        <a href="./paginas/exposicao_acorianas.html" target="_blank">
+                                            Fotos da Exposição
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-16">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="museu" role="tabpanel" aria-labelledby="tab3-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100"
+                                        src="./src/img_minificadas/noticias_carrousel/frente_museo.png"
+                                        alt="trajes da corte da festa do divino espirito santo" />
+
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="texto_materia">
+                                        A Secretaria de Educação, Cultura e Esporte (SEDUCE), por meio da Diretoria
+                                        Municipal de Cultura, inaugura no sábado (14), às 15h, o Museu da Freguesia
+                                        de Sant’Ana, no bairro Mirim, em Imbituba. O espaço reformado valoriza a
+                                        história local por meio de exposições artísticas e integra uma Ação Cultural
+                                        que ocorrerá durante o fim de semana na comunidade. O prédio, que já abrigou
+                                        a primeira escola do município, é patrimônio histórico. No mesmo local, será
+                                        reinaugurada a sede dos Correios do bairro. As atividades culturais começam
+                                        às 14h30 no sábado e às 9h30 no domingo.
+                                        <a href="https://imbituba.sc.gov.br/noticia-605337/" target="_blank">Fonte</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-16">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="natal" role="tabpanel" aria-labelledby="tab4-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100"
+                                        src="./src/img_minificadas/noticias_carrousel/natal.01.jpeg"
+                                        alt="trajes da corte da festa do divino espirito santo" />
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="texto_materia">
+                                        Durante dois fins de semana, a Secretaria de Educação, Cultura e Esporte
+                                        (SEDUCE) de Imbituba, via Superintendência de Cultura, promoveu ações
+                                        culturais nos bairros Mirim e Vila Nova como parte do Natal Encantado. O
+                                        evento contou com estandes para artistas locais, feiras de artesanato,
+                                        apresentações de Terno de Reis e Boi de Mamão, além de gastronomia típica
+                                        açoriana. A iniciativa visa descentralizar as feiras tradicionais e
+                                        aproximar a cultura da comunidade. Novas atividades ocorrerão em 23 de
+                                        dezembro na Praça de Nova Brasília e no Calçadão da Rua Nereu Ramos, com
+                                        apoio da Secretaria de Desenvolvimento Econômico, Turístico e Portuário.
+                                        <a href="https://imbituba.sc.gov.br/noticia-714370/"
+                                            target="_blank">Fonte</a><br><br>
+                                        <a href="./paginas/acoes_natalinas.html" target="_blank">
+                                            Fotos da Exposição
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-16">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="flocore" role="tabpanel" aria-labelledby="tab5-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100"
+                                        src="./src/img_minificadas/noticias_carrousel/folclore.01.jpg"
+                                        alt="trajes da corte da festa do divino espirito santo" />
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="texto_materia">
+                                        O Dia do Folclore, celebrado em 22 de agosto, foi comemorado em Imbituba com
+                                        um grande desfile no Calçadão da Rua Nereu Ramos, envolvendo onze entidades
+                                        locais que valorizaram a cultura açoriana. A fanfarra municipal, formada por
+                                        alunos das redes de ensino, animou o evento. Participaram crianças de cinco
+                                        Centros Municipais de Educação Infantil, além de grupos culturais como a
+                                        Associação Empresarial, a Academia de Letras e a Companhia Desmontagem
+                                        Cênica, que apresentou a Batalha de Fogo. Autoridades destacaram a
+                                        importância de preservar a memória cultural para as futuras gerações
+                                        <a href="https://imbituba.sc.gov.br/noticia-570815/"
+                                            target="_blank">Fonte</a><br><br>
+                                        <a href="./paginas/dia_folclore.html" target="_blank">
+                                            Fotos da Exposição
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-18">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="mostra-cultural" role="tabpanel" aria-labelledby="tab6-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100"
+                                        src="./src/img_minificadas/noticias_carrousel/mostra_cultural.01.jpeg"
+                                        alt="trajes da corte da festa do divino espirito santo" />
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="texto_materia">
+                                        A mostra cultural com peças produzidas por artistas de Imbituba, realizada
+                                        no hall do Paço Municipal desde 10 de junho, seguiu até 28 de junho,
+                                        celebrando os 61 anos de emancipação político-administrativa da cidade. A
+                                        exposição destacou a cultura local, especialmente a influência açoriana, por
+                                        meio de objetos que remetem à história da cidade. Participaram grupos e
+                                        entidades como Associação Mariscão da Zimba, Casa Açoriana, ASSIART, e
+                                        representantes da freguesia do Mirim e ACORDI. O cenário incluiu elementos
+                                        típicos como objetos de pesca, casa açoriana e engenho de farinha de
+                                        mandioca, atraindo a atenção das escolas locais.
+                                        <a href="https://imbituba.sc.gov.br/noticia-560596/"
+                                            target="_blank">Fonte</a><br><br>
+                                        <a href="./paginas/mostra_cultural.html" target="_blank">
+                                            Fotos da Exposição
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-18">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="semana-dos-museus" role="tabpanel" aria-labelledby="tab7-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./src/img_minificadas/semana-de-museu01.jpeg"
+                                        alt="trajes da corte da festa do divino espirito santo" />
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./src/img_minificadas/semana-de-museu02.jpeg"
+                                        alt="trajes da corte da festa do divino espirito santo" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
         </section>
 
         <!-- inicio sobre -->
@@ -221,15 +398,20 @@
                         <h2 class="mt-3 pb-4 text-titulo titulo-sobre">Sobre</h2>
 
                         <p class="text">
-                            A Sociedade Cultural Freguesia do Mirim, fundada em 9 de junho de 2005 em Imbituba, SC, é
-                            uma organização privada sem fins lucrativos com o objetivo de promover e divulgar a cultura
+                            A Sociedade Cultural Freguesia do Mirim, fundada em 9 de junho de 2005 em Imbituba, SC,
+                            é
+                            uma organização privada sem fins lucrativos com o objetivo de promover e divulgar a
+                            cultura
                             e o patrimônio material e imaterial da comunidade, dentro e fora dela. A sociedade busca
-                            manter um espaço de memória, apoiar manifestações culturais e artísticas, facilitar o acesso
+                            manter um espaço de memória, apoiar manifestações culturais e artísticas, facilitar o
+                            acesso
                             e a participação da comunidade em suas ações, atendendo às necessidades culturais de
                             diversos segmentos. Além disso, promove o intercâmbio cultural entre diferentes faixas
-                            etárias e defende a preservação do meio ambiente e o desenvolvimento sustentável, conforme
+                            etárias e defende a preservação do meio ambiente e o desenvolvimento sustentável,
+                            conforme
                             seu estatuto. A sociedade já organizou eventos como a festa dos 150 anos do Mirim e
-                            participa de festividades locais, além de realizar parcerias com instituições de ensino. Em
+                            participa de festividades locais, além de realizar parcerias com instituições de ensino.
+                            Em
                             2007, elegeu sua primeira diretoria.
                             <br><br>
 
@@ -274,13 +456,17 @@
                                         <img class="d-block w-100" src="./src/img_minificadas/foto_lagoa_mirim_01.jpg"
                                             alt="Foto da lagoa do mirim" />
                                         <p>
-                                            O Distrito de Mirim, no século passado, foi importante polo comercial, onde
-                                            se irradiou a civilização e o desenvolvimento em toda a região banhada pela
+                                            O Distrito de Mirim, no século passado, foi importante polo comercial,
+                                            onde
+                                            se irradiou a civilização e o desenvolvimento em toda a região banhada
+                                            pela
                                             Lagoa do Mirim e o Rio D’uma. Nessa época, duas empresas de navegação
                                             estavam estabelecidas na freguesia de Mirim, com barcos que faziam o
                                             percurso até o Rio de Janeiro e vice-versa.
-                                            Os barcos saiam do Mirim, atravessavam a barra da Laguna e seguiam até o Rio
-                                            de Janeiro, levando produtos da agricultura. Ao retornarem do Rio de janeiro
+                                            Os barcos saiam do Mirim, atravessavam a barra da Laguna e seguiam até o
+                                            Rio
+                                            de Janeiro, levando produtos da agricultura. Ao retornarem do Rio de
+                                            janeiro
                                             para o Mirim, traziam artigos manufaturados indispensáveis ao consumo da
                                             população.
                                         </p>
@@ -289,15 +475,21 @@
                                         <img class="d-block w-100" src="./src/img_minificadas/foto_lagoa_mirim_02.jpg"
                                             alt="Foto aeria da igreja de mirim" />
                                         <p>
-                                            As empresas de navegação estabelecidas na Freguesia de Mirim era a “Clemente
-                                            José da Silva Pacheco”, que possuía dois barcos, cujos nomes eram: Clemente
-                                            I e Clemente II, e a “Guimarães & Filhos”, com um barco, de nome São João
+                                            As empresas de navegação estabelecidas na Freguesia de Mirim era a
+                                            “Clemente
+                                            José da Silva Pacheco”, que possuía dois barcos, cujos nomes eram:
+                                            Clemente
+                                            I e Clemente II, e a “Guimarães & Filhos”, com um barco, de nome São
+                                            João
                                             Del Rei.
 
-                                            O barco São João Del Rei tinha o apelido de “Pouca Roupa”, porque suas velas
+                                            O barco São João Del Rei tinha o apelido de “Pouca Roupa”, porque suas
+                                            velas
                                             eram remendadas. As pessoas se dirigiam ao Senhor Bernardo José de Souza
-                                            Guimarães, chefe da firma e perguntavam: quando o “Pouca Roupa” vai viajar?
-                                            Ele respondia irritado, com sotaque lusitano, pois era natural de Portugal,
+                                            Guimarães, chefe da firma e perguntavam: quando o “Pouca Roupa” vai
+                                            viajar?
+                                            Ele respondia irritado, com sotaque lusitano, pois era natural de
+                                            Portugal,
                                             Pouca Roupa, não, São João Del Rei.
                                         </p>
                                         <h5>Autores: Jucineide Cardoso e Juarez de Melo</h5>
@@ -326,7 +518,8 @@
                                 </a>
                             </div>
                             <span>Festa do Divino</span>
-                            <p class="text">Tradicional festa religiosa do Bairro, com mais de 100 anos de História</p>
+                            <p class="text">Tradicional festa religiosa do Bairro, com mais de 100 anos de História
+                            </p>
                             <div class="cta-materia">
                                 <a href="./paginas/história_da_festa_do_divino_espirito_santo_e_santAna.html">
                                     Saiba Mais
