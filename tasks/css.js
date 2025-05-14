@@ -3,7 +3,7 @@ import cleanCSS from 'gulp-clean-css';
 import plumber from 'gulp-plumber';
 
 // Defina os caminhos para os arquivos CSS
-const sourcePath = 'src/styles/**/**.css';
+const sourcePath = 'srcOriginal/styles/**/**.css';
 const destinationPath = 'src/css_minificados'; // Ou outra pasta de destino para CSS minificado
 
 const cssTask = () => (
