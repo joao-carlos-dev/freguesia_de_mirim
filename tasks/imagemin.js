@@ -1,7 +1,7 @@
 import gulp from 'gulp';
 import imagemin from 'gulp-imagemin';
 
-const sourcePath = 'src/img/**/*.{jpg,jpeg,png,jfjf}';
+const sourcePath = 'srcOriginal/img/**/*.{jpg,jpeg,png,jfjf}';
 const destinationPath = 'src/img_minificadas';
 
 const imageminOptions = {
